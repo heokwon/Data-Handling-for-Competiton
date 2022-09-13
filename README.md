@@ -1,6 +1,18 @@
 # Data-Handling-for-segmentation
 ### Object
 * Data Handling for Kaggle competition HuBMAP + HPA : Hacking human body
+### Introduction
+* rle to mask -> Create binary, multi dataset
+* Class 별로 데이터 편향 줄이기
+* Background 비율 조절
+* Resize
+* Convert
+* Delete non-mask image
+* Create COCOformat
+* augmentation - Mosaic, Laplacian pyramid blending
+### Env and Requirements
+* Google Colab
+* Pandas, Pillow, cv2, imageio, matplotlib, pycocotools, skimage 
 ### Reference
 * https://github.com/twyunting/Laplacian-Pyramids
 * https://www.kaggle.com/code/nghihuynh/data-augmentation-laplacian-pyramid-blending

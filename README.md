@@ -1,4 +1,4 @@
-# Data-Handling-for-segmentation
+# Data-Handling-for-Competition
 ### Object
 * Data Handling for Kaggle Competition : HuBMAP + HPA - Hacking The Human Body
 ### Introduction

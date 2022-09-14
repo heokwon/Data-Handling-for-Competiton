@@ -1,6 +1,6 @@
 # Data-Handling-for-segmentation
 ### Object
-* Data Handling for Kaggle competition : HuBMAP + HPA - Hacking The Human Body
+* Data Handling for Kaggle Competition : HuBMAP + HPA - Hacking The Human Body
 ### Introduction
 * rle to mask -> Create binary, multi dataset
 * Class 별로 데이터 편향 줄이기

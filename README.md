@@ -6,13 +6,13 @@
 * Class 별로 데이터 편향 줄이기
 * Background 비율 조절
 * Resize
-* Convert
+* Convert, Convert with stride
 * Delete non-mask image
 * Create COCOformat
 * augmentation - Mosaic, Laplacian pyramid blending
 ### Env and Requirements
 * Google Colab
-* Pandas, Pillow, cv2, imageio, matplotlib, pycocotools, skimage 
+* Pandas, Pillow, cv2, imageio, matplotlib, pycocotools, skimage, rasterio
 ### Reference
 * https://github.com/twyunting/Laplacian-Pyramids
 * https://www.kaggle.com/code/nghihuynh/data-augmentation-laplacian-pyramid-blending

@@ -18,3 +18,5 @@
 * https://www.kaggle.com/code/nghihuynh/data-augmentation-laplacian-pyramid-blending
 * https://www.kaggle.com/code/alejopaullier/how-to-create-a-coco-dataset
 * https://github.com/Mr-TalhaIlyas/Mosaic-Augmentation-for-Segmentation
+* https://www.kaggle.com/code/thedevastator/converting-to-256x256
+* https://www.kaggle.com/code/e0xextazy/multiclass-dataset-768x768-with-stride-for-mmseg

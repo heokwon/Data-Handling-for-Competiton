@@ -1,4 +1,6 @@
 # Data-Handling-for-Competition
+### Team
+* 윤소미, 장주찬, 전규원, 한정현, 허권
 ### Object
 * Data Handling for Kaggle Competition : HuBMAP + HPA - Hacking The Human Body
 ### Introduction

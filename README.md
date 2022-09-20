@@ -12,7 +12,8 @@
 * Convert, Convert with stride : 3000x3000 픽셀의 데이터셋을 해상도 손상 없이 다운스케일링 하기위함
 * Delete non-mask image : 학습률을 높이기 위한 목적으로 Backgound 뿐인 마스크 이미지 제거
 * Create COCOformat : noise 목적으로 Copy & Paste 데이터셋을 만들기 위함
-* augmentation - Mosaic, Laplacian pyramid blending
+* Mosaic augmentation(offline) : convert dataset 4장을 랜덤하게 mosaic하여 데이터증강, 성능이 좋지 못했음
+* LBP augmentation(offline) : convert with stride 데이터셋으로 진행
 ### Env and Requirements
 * Google Colab
 * Pandas, Pillow, cv2, imageio, matplotlib, pycocotools, skimage, rasterio

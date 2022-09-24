@@ -4,18 +4,19 @@
 ### Object
 * Data Handling for Kaggle Competition : HuBMAP + HPA - Hacking The Human Body
 ### Introduction
-* rle to mask -> Create binary, multi dataset
-* Class 별로 데이터 편향 줄이기 : kidney, prostate, lagre intestine, spleen, lung 데이터셋의
+* **rle to mask** -> Create binary, multi dataset
+* **Class 별로 데이터 편향 줄이기** : kidney, prostate, lagre intestine, spleen, lung 데이터셋의
 비중을 맞추기 위함
-* Background 비율 조절 : Background가 학습에 방해요인이라 생각하여 비중을 덜어내기 위함
-* Resize : 다운스케일링
-* Convert, Convert with stride : 3000x3000 픽셀의 데이터셋을 해상도 손상 없이 다운스케일링 하기위함
-* Delete non-mask image : 학습률을 높이기 위한 목적으로 Backgound 뿐인 마스크 이미지 제거
-* Create COCOformat : noise 목적으로 Copy & Paste 데이터셋을 만들기 위함
-* Mosaic augmentation(offline) : convert dataset 4장을 랜덤하게 mosaic하여 데이터증강, 성능이 좋지 못했음
-* LBP augmentation(offline) : convert with stride 데이터셋으로 진행
-* Binary2Multi : binary형태의 데이터셋에 label별로 array를 다르게 줌으로써 multi데이터셋으로 변환   
-kidney - 1 , prostate - 2 , largeintestine - 3 , spleen - 4 , lung - 5
+* **Background 비율 조절** : Background가 학습에 방해요인이라 생각하여 비중을 덜어내기 위함
+* **Resize** : 다운스케일링
+* **Convert, Convert with stride** : 3000x3000 픽셀의 데이터셋을 해상도 손상 없이 다운스케일링 하기위함
+* **Delete non-mask image** : 학습률을 높이기 위한 목적으로 Backgound 뿐인 마스크 이미지 제거
+* **Create COCOformat** : noise 목적으로 Copy & Paste 데이터셋을 만들기 위함
+* **Mosaic augmentation(offline)** : convert dataset 4장을 랜덤하게 mosaic하여 데이터증강, 성능이 좋지 못했음
+* **LBP augmentation(offline)** : convert with stride 데이터셋으로 진행 , 성능이 좋지 못했음
+* **Binary2Multi** : binary형태의 데이터셋에 label별로 array를 다르게 줌으로써 multi데이터셋으로 변환   
+kidney - 1 , prostate - 2 , largeintestine - 3 , spleen - 4 , lung - 5   
+mmsegmentation에서 binary 보다 multi dataset으로 학습시킨 결과가 더 좋았음
 ### Env and Requirements
 * Google Colab
 * Pandas, Pillow, cv2, imageio, matplotlib, pycocotools, skimage, rasterio

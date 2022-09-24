@@ -14,7 +14,8 @@
 * Create COCOformat : noise 목적으로 Copy & Paste 데이터셋을 만들기 위함
 * Mosaic augmentation(offline) : convert dataset 4장을 랜덤하게 mosaic하여 데이터증강, 성능이 좋지 못했음
 * LBP augmentation(offline) : convert with stride 데이터셋으로 진행
-* Binary2Multi : binary형태의 데이터셋에 label별로 array를 다르게 줌으로써 multi데이터셋으로 변환
+* Binary2Multi : binary형태의 데이터셋에 label별로 array를 다르게 줌으로써 multi데이터셋으로 변환   
+kidney - 1 , prostate - 2 , largeintestine - 3 , spleen - 4 , lung - 5
 ### Env and Requirements
 * Google Colab
 * Pandas, Pillow, cv2, imageio, matplotlib, pycocotools, skimage, rasterio

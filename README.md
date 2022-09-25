@@ -1,4 +1,4 @@
-# Data-Handling-for-Competition
+# KaggleCompetiton-DataHandling
 ### Team
 * 윤소미, 장주찬, 전규원, 한정현, 허권
 ### Object
